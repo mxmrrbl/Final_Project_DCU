@@ -1,0 +1,56 @@
+﻿@model ProgramacionFinal2.Models.ViewModels.AulaVM
+@{
+    ViewData["Title"] = "Aula_Detalle";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@if (Model.oAula.IdAula == 0)
+{
+
+    <h1>Añadir Aula</h1>
+}
+else
+{
+    <h1>Modificar Aula</h1>
+}
+
+
+
+
+<div class="row">
+    <div class="col-sm-4">
+
+        <form asp-action="Aula_Detalle" asp-controller="Aula" method="post">
+            <input type="hidden" asp-for="oAula.IdAula" />
+
+            <div class="mb-2">
+                <label class="form-label" asp-for="oAula.Nombre">Aula de clases</label>
+                <input class="form-control form-control-sm" asp-for="oAula.Nombre" type="text" />
+            </div>
+
+            <div class="mb-2">
+                <label class="form-label" asp-for="oAula.Capacidad">Capacidad</label>
+                <input class="form-control form-control-sm" asp-for="oAula.Capacidad" type="text" />
+            </div>
+
+
+            <div class="mb-2">
+
+                @if (Model.oAula.IdAula == 0)
+                {
+                    <button class="btn btn-primary btn-sm w-25" type="submit">Crear</button>
+                }
+                else
+                {
+                    <button class="btn btn-primary btn-sm w-25" type="submit">Actualizar</button>
+
+                }
+                <a class="btn btn-dark btn-sm" asp-action="Index" asp-controller="Aula">Volver</a>
+
+            </div>
+
+        </form>
+
+    </div>
+</div>
+

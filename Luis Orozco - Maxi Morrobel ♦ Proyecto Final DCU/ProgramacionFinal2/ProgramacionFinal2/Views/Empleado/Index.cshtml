@@ -1,0 +1,51 @@
+﻿@model List<ProgramacionFinal2.Models.Empleado>
+@{
+    ViewData["Title"] = "Empleado";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Administración de Empleados Administrativos</h1>
+</div>
+
+<div class="card">
+    <div class="card-header">
+        <h5>Lista de Empleados Administrativos</h5>
+    </div>
+    <div class="card-body">
+        <a class="btn btn-success btn-sm" asp-action="Empleado_Detalle" asp-controller="Empleado" asp-route-idEmpleado="0">Crear Nuevo</a>
+        <hr />
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Codigo </th>
+                    <th>Nombre </th>
+                    <th>Apellido</th>
+                    <th>Fecha de Nacimiento</th>
+                    <th>Departamento</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@item.Codigo</td>
+                        <td>@item.Nombre</td>
+                        <td>@item.Apellido</td>
+                        <td>@item.Nacimiento</td>
+                        <td>@item.IdDepartamentoNavigation.Descripcion</td>
+                        <td>
+                            <a class="btn btn-primary btn-sm " asp-action="Empleado_Detalle" asp-controller="Empleado" asp-route-idEmpleado="@item.IdEmpleado"> Modificar</a>
+                            <a class="btn btn-danger btn-sm " asp-action="Eliminar" asp-controller="Empleado" asp-route-idEmpleado="@item.IdEmpleado"> Eliminar</a>
+                        </td>
+                    </tr>
+
+
+
+                }
+            </tbody>
+        </table>
+
+
+    </div>
+</div>

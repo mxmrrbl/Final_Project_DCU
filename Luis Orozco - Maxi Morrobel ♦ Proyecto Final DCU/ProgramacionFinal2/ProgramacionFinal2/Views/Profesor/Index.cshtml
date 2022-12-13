@@ -1,0 +1,49 @@
+﻿@model List<ProgramacionFinal2.Models.Profesor>
+@{
+    ViewData["Title"] = "Profesores";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Administración de Profesores</h1>
+</div>
+
+<div class="card">
+    <div class="card-header">
+        <h5>Lista de Profesores</h5>
+    </div>
+    <div class="card-body">
+        <a class="btn btn-success btn-sm" asp-action="Profesor_Detalle" asp-controller="Profesor" asp-route-idProfesor="0">Crear Nuevo</a>
+        <hr />
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Codigo </th>
+                    <th>Nombre </th>
+                    <th>Apellido</th>
+                    <th>Fecha de Nacimiento</th>
+                    <th>Area</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@item.Codigo</td>
+                        <td>@item.Nombre</td>
+                        <td>@item.Apellido</td>
+                        <td>@item.Nacimiento</td>
+                        <td>@item.IdAreaNavigation.Descripcion</td>
+                        <td>
+                            <a class="btn btn-primary btn-sm " asp-action="Profesor_Detalle" asp-controller="Profesor" asp-route-idProfesor="@item.IdProfesor"> Modificar</a>
+                            <a class="btn btn-danger btn-sm " asp-action="Eliminar" asp-controller="Profesor" asp-route-idProfesor="@item.IdProfesor"> Eliminar</a>
+                        </td>
+                    </tr>
+
+                }
+            </tbody>
+        </table>
+
+
+    </div>
+</div>

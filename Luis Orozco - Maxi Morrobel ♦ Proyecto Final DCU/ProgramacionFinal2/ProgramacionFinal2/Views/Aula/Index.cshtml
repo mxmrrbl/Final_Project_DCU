@@ -1,0 +1,45 @@
+﻿@model List<ProgramacionFinal2.Models.Aula>
+@{
+    ViewData["Title"] = "Aulas";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Aulas de Clases</h1>
+</div>
+
+<div class="card">
+    <div class="card-header">
+        <h5>Lista de Aulas</h5>
+    </div>
+    <div class="card-body">
+        <a class="btn btn-success btn-sm" asp-action="Aula_Detalle" asp-controller="Aula" asp-route-idAula="0">Crear Nuevo</a>
+        <hr />
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Nombre </th>
+                    <th>Capacidad</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@item.Nombre</td>
+                        <td>@item.Capacidad</td>
+                        <td>
+                            <a class="btn btn-primary btn-sm " asp-action="Aula_Detalle" asp-controller="Aula" asp-route-idAula="@item.IdAula"> Modificar</a>
+                            <a class="btn btn-danger btn-sm " asp-action="Eliminar" asp-controller="Aula" asp-route-idAula="@item.IdAula"> Eliminar</a>
+                        </td>
+                    </tr>
+
+
+
+                }
+            </tbody>
+        </table>
+
+
+    </div>
+</div>

@@ -1,0 +1,100 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = ProgramacionFinal2
+build_property.RootNamespace = ProgramacionFinal2
+build_property.ProjectDir = C:\Users\LUIS\Desktop\CLASES VIRTUALES ITLA\Diseño Centrado en el Usuario\Proyecto Final\HomeWorld\SegundoIntento\ProgramacionFinal2\ProgramacionFinal2\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\LUIS\Desktop\CLASES VIRTUALES ITLA\Diseño Centrado en el Usuario\Proyecto Final\HomeWorld\SegundoIntento\ProgramacionFinal2\ProgramacionFinal2
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/LUIS/Desktop/CLASES VIRTUALES ITLA/Diseño Centrado en el Usuario/Proyecto Final/HomeWorld/SegundoIntento/ProgramacionFinal2/ProgramacionFinal2/Views/Alumno/Alumno_Detalle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWx1bW5vXEFsdW1ub19EZXRhbGxlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/LUIS/Desktop/CLASES VIRTUALES ITLA/Diseño Centrado en el Usuario/Proyecto Final/HomeWorld/SegundoIntento/ProgramacionFinal2/ProgramacionFinal2/Views/Alumno/Eliminar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWx1bW5vXEVsaW1pbmFyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/LUIS/Desktop/CLASES VIRTUALES ITLA/Diseño Centrado en el Usuario/Proyecto Final/HomeWorld/SegundoIntento/ProgramacionFinal2/ProgramacionFinal2/Views/Alumno/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWx1bW5vXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/LUIS/Desktop/CLASES VIRTUALES ITLA/Diseño Centrado en el Usuario/Proyecto Final/HomeWorld/SegundoIntento/ProgramacionFinal2/ProgramacionFinal2/Views/Aula/Aula_Detalle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXVsYVxBdWxhX0RldGFsbGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/LUIS/Desktop/CLASES VIRTUALES ITLA/Diseño Centrado en el Usuario/Proyecto Final/HomeWorld/SegundoIntento/ProgramacionFinal2/ProgramacionFinal2/Views/Aula/Eliminar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXVsYVxFbGltaW5hci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/LUIS/Desktop/CLASES VIRTUALES ITLA/Diseño Centrado en el Usuario/Proyecto Final/HomeWorld/SegundoIntento/ProgramacionFinal2/ProgramacionFinal2/Views/Aula/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXVsYVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/LUIS/Desktop/CLASES VIRTUALES ITLA/Diseño Centrado en el Usuario/Proyecto Final/HomeWorld/SegundoIntento/ProgramacionFinal2/ProgramacionFinal2/Views/Empleado/Eliminar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbGVhZG9cRWxpbWluYXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/LUIS/Desktop/CLASES VIRTUALES ITLA/Diseño Centrado en el Usuario/Proyecto Final/HomeWorld/SegundoIntento/ProgramacionFinal2/ProgramacionFinal2/Views/Empleado/Empleado_Detalle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbGVhZG9cRW1wbGVhZG9fRGV0YWxsZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/LUIS/Desktop/CLASES VIRTUALES ITLA/Diseño Centrado en el Usuario/Proyecto Final/HomeWorld/SegundoIntento/ProgramacionFinal2/ProgramacionFinal2/Views/Empleado/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbGVhZG9cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/LUIS/Desktop/CLASES VIRTUALES ITLA/Diseño Centrado en el Usuario/Proyecto Final/HomeWorld/SegundoIntento/ProgramacionFinal2/ProgramacionFinal2/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/LUIS/Desktop/CLASES VIRTUALES ITLA/Diseño Centrado en el Usuario/Proyecto Final/HomeWorld/SegundoIntento/ProgramacionFinal2/ProgramacionFinal2/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/LUIS/Desktop/CLASES VIRTUALES ITLA/Diseño Centrado en el Usuario/Proyecto Final/HomeWorld/SegundoIntento/ProgramacionFinal2/ProgramacionFinal2/Views/Profesor/Eliminar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZmVzb3JcRWxpbWluYXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/LUIS/Desktop/CLASES VIRTUALES ITLA/Diseño Centrado en el Usuario/Proyecto Final/HomeWorld/SegundoIntento/ProgramacionFinal2/ProgramacionFinal2/Views/Profesor/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZmVzb3JcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/LUIS/Desktop/CLASES VIRTUALES ITLA/Diseño Centrado en el Usuario/Proyecto Final/HomeWorld/SegundoIntento/ProgramacionFinal2/ProgramacionFinal2/Views/Profesor/Profesor_Detalle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZmVzb3JcUHJvZmVzb3JfRGV0YWxsZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/LUIS/Desktop/CLASES VIRTUALES ITLA/Diseño Centrado en el Usuario/Proyecto Final/HomeWorld/SegundoIntento/ProgramacionFinal2/ProgramacionFinal2/Views/Shared/DisplayTemplates/DateTime.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXERpc3BsYXlUZW1wbGF0ZXNcRGF0ZVRpbWUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/LUIS/Desktop/CLASES VIRTUALES ITLA/Diseño Centrado en el Usuario/Proyecto Final/HomeWorld/SegundoIntento/ProgramacionFinal2/ProgramacionFinal2/Views/Shared/EditorTemplates/DateTime.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVkaXRvclRlbXBsYXRlc1xEYXRlVGltZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/LUIS/Desktop/CLASES VIRTUALES ITLA/Diseño Centrado en el Usuario/Proyecto Final/HomeWorld/SegundoIntento/ProgramacionFinal2/ProgramacionFinal2/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/LUIS/Desktop/CLASES VIRTUALES ITLA/Diseño Centrado en el Usuario/Proyecto Final/HomeWorld/SegundoIntento/ProgramacionFinal2/ProgramacionFinal2/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/LUIS/Desktop/CLASES VIRTUALES ITLA/Diseño Centrado en el Usuario/Proyecto Final/HomeWorld/SegundoIntento/ProgramacionFinal2/ProgramacionFinal2/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/LUIS/Desktop/CLASES VIRTUALES ITLA/Diseño Centrado en el Usuario/Proyecto Final/HomeWorld/SegundoIntento/ProgramacionFinal2/ProgramacionFinal2/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/LUIS/Desktop/CLASES VIRTUALES ITLA/Diseño Centrado en el Usuario/Proyecto Final/HomeWorld/SegundoIntento/ProgramacionFinal2/ProgramacionFinal2/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-5kltxkxksw
